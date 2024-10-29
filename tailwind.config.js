@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'football-preview': "url(./image/football-preview.png)",
+      },
+    },
   },
   plugins: [],
-}
+};

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build-css": "tailwindcss build src/tailwind.css -o public/tailwind.css"
+    "build:css": "npx tailwindcss -i ./src/tailwind.css -o ./public/output.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.14"
