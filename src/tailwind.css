@@ -121,7 +121,14 @@ section .preview p {
   padding: 4px 0px 10px 379px;
   gap: 8px;
   opacity: 0px;
-  background: linear-gradient(180deg, #000000 0%, #000000 45%, #CCB91F 46%, #FAE115 49%, #000000 100%);
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    #000000 45%,
+    #ccb91f 46%,
+    #fae115 49%,
+    #000000 100%
+  );
 }
 
 .box-1 {
@@ -135,8 +142,8 @@ section .preview p {
 
 .box-2 {
   background: #000000;
-  width: Fixed (222px)px;
-  height: Fixed (264.88px)px;
+  width: Fixed (222px) px;
+  height: Fixed (264.88px) px;
   gap: 20px;
   opacity: 0px;
   color: #fff;
@@ -144,14 +151,39 @@ section .preview p {
 
 .box-3 {
   background: #000000;
-  width: Fixed (222px)px;
-  height: Fixed (264.88px)px;
+  width: Fixed (222px) px;
+  height: Fixed (264.88px) px;
   gap: 20px;
   opacity: 0px;
   color: #fff;
 }
 
-
 .club {
   color: #f4e721;
+}
+
+.muranga-team {
+  width: 1415px;
+  height: 2381px;
+  left: 7px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: #d4b413;
+}
+.timer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+.timer span {
+  font-size: 14px;
+  color: #333;
 }
