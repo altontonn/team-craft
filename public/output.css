@@ -798,6 +798,7 @@ section .preview p {
   padding: 4px 0px 10px 379px;
   gap: 8px;
   opacity: 0px;
+  background: linear-gradient(180deg, #000000 0%, #000000 45%, #CCB91F 46%, #FAE115 49%, #000000 100%);
 }
 
 .box-1 {
