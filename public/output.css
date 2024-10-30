@@ -567,6 +567,26 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -579,16 +599,32 @@ video {
   display: grid;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .h-12 {
   height: 3rem;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .h-screen {
   height: 100vh;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
 .w-12 {
   width: 3rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .w-80 {
@@ -643,9 +679,29 @@ video {
   gap: 1rem;
 }
 
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
 .bg-div {
@@ -714,6 +770,11 @@ video {
   padding-right: 1rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -721,6 +782,10 @@ video {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .pl-4 {
@@ -747,6 +812,10 @@ video {
   padding-right: 2rem;
 }
 
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -758,6 +827,11 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-base {
@@ -902,8 +976,7 @@ section .preview p {
 }
 
 .cards {
-  width: Fixed (1, 440px) px;
-  height: Fixed (278.88px) px;
+  height: 303.88px;
   padding: 4px 0px 10px 379px;
   gap: 8px;
   opacity: 0px;
@@ -1179,4 +1252,133 @@ section .preview p {
   gap: 13px;
   box-shadow: 0px 0px 12px 0px #0000001a;
   border-radius: 8px 8px 8px 8px;
+}
+
+.players {
+  background: linear-gradient(247deg, #152efa 0%, #ebbd00 100%);
+  height: 652px;
+}
+
+.footer-icons {
+  height: 273px;
+  margin-top: 8rem;
+}
+
+.footer-1 p {
+  color: #c8b416;
+  font-family: Inter;
+  font-size: 10.7px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.footer-1 button {
+  color: #fff;
+  height: 32px;
+  text-align: right;
+  border-radius: 3px 3px 3px 3px;
+  background: #fae115;
+  font-size: 10.3px;
+}
+
+.image-icons {
+  border-left: 1px solid #f4e721;
+}
+
+.contact p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.subscription-container {
+  background-color: #ffd700;
+  /* Bright yellow */
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  width: 1158px;
+  font-size: 1.2em;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  color: #000;
+}
+
+.subscription-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #000;
+}
+
+.subscription-box input[type="email"] {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 1em;
+  color: #ffd700;
+  background-color: #000;
+  /* Black background for the input */
+}
+
+.subscription-box button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: #000;
+  /* Black background for the button */
+  background-color: #ffd700;
+  /* Bright yellow text */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.subscription-box button:hover {
+  background-color: #333;
+}
+
+.menu a {
+  color: #fae115;
+  padding: 1rem;
+}
+
+.footer-links {
+  margin-top: 3rem;
+}
+
+.footer-line {
+  border: 2px solid #fae115;
+  width: 1158px;
+  margin: 0 auto;
+}
+
+.copyright {
+  width: 1158px;
+  margin: 2rem auto;
+}
+
+#info-1 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #fae115;
+}
+
+#info-2 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 21px;
+  text-align: left;
+  color: #fae115;
 }
