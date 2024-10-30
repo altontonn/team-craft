@@ -326,9 +326,20 @@ section .preview p {
 .headline-match-1 {
   width: 352px;
   height: 47px;
-  background: #080E1F;
+  background: #080e1f;
 }
 
-.main {
+.ticket-header {
+  font-family: Inter;
+  font-size: 33.3px;
+  font-weight: 400;
+  line-height: 43.2px;
+  background: linear-gradient(90deg, #c8b416 0%, #fae115 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.center-images {
+  width: 65%;
+  margin: 0 auto;
 }
