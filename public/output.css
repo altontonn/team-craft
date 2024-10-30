@@ -901,13 +901,19 @@ video {
   height: 112px;
 }
 
-@media screen and (min-width: 950px) {
-  .navbar {
-  }
-}
-
 .img-logo {
   position: absolute;
+}
+
+.hamburger-menu {
+  display: none;
+  /* Hidden by default */
+  cursor: pointer;
+  font-size: 24px;
+  color: #fae115;
+  position: absolute;
+  top: 15px;
+  right: 15px;
 }
 
 .header-1 {
@@ -965,6 +971,57 @@ video {
   border-top: 1rem solid #f4e721;
 }
 
+@media screen and (max-width: 768px) {
+  .header-1,
+  .header-2 {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    z-index: 5;
+  }
+
+  .navbar {
+    height: 0;
+  }
+
+  .header-links-1 {
+    display: none;
+  }
+
+  .menu {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    display: none;
+    /* Hidden initially */
+  }
+
+  .menu.show {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .menu.show .header-links-1,
+  .menu.show .header-links-2 {
+    padding: 10px;
+  }
+}
+
 section .preview {
   width: 678px;
   height: 60px;
@@ -1015,7 +1072,6 @@ section .preview p {
 .cards {
   display: flex;
   justify-content: center;
-  height: 303.88px;
   gap: 8px;
   background: linear-gradient(
     180deg,
@@ -1232,6 +1288,9 @@ section .preview p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
   gap: 16px;
+  justify-items: center;
+  /* Centers items horizontally */
+  align-items: center;
 }
 
 .ticket-header {
@@ -1293,7 +1352,6 @@ section .preview p {
 
 .players {
   background: linear-gradient(247deg, #152efa 0%, #ebbd00 100%);
-  height: 652px;
 }
 
 .footer-icons {

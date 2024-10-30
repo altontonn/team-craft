@@ -13,7 +13,10 @@
 <body>
   <section class="navbar">
     <img src="../img/Mseal-logo- 1.png" class="img-logo" alt="logo" />
-    <div class="header-1">
+    <div class="hamburger-menu" onclick="toggleMenu()">
+      <i class="fa fa-bars"></i>
+    </div>
+    <div class="header-1 menu">
       <div class="header-links-1">
         <a href="" class="link pr-8 text-xs no-underline text-white"><i
             class="fa-regular icon-background fa-user"></i>Login</a>
@@ -21,7 +24,7 @@
             class="fa-regular icon-background fa-user"></i>Register</a>
       </div>
     </div>
-    <div class="header-2">
+    <div class="header-2 menu">
       <div class="header-links-2">
         <a href="" class="p-4 text-xs font-sans no-underline text-white">NEWS</a>
         <a href="" class="p-4 text-xs no-underline text-white">FIXTURES</a>
@@ -56,7 +59,7 @@
     </div>
   </section>
   <section class="cards ml-3">
-    <div class="grid-cols-3 gap-4 flex flex-wrap">
+    <div class="grid-cols-3 gap-4 flex flex-wrap justify-center items-center">
       <div class="box-1">
         <img src="../img/orlando-1.png" />
         <div class="box-text flex flex-col justify-center items-center">
@@ -97,7 +100,7 @@
   </section>
   <section class="main-section ml-3">
     <div class="muranga-team px-4 ml-3 pb-4">
-      <div class="team-header flex justify-between px-3 py-6">
+      <div class="team-header flex justify-between flex-wrap px-3 py-6">
         <div class="team-header-text">
           <p>Murang’a First Team Matches</p>
         </div>
@@ -418,9 +421,7 @@
         <img src="../img/image 38.png" alt="footballer" />
       </div>
       <div class="flex space-x-2 justify-center pt-6">
-        <!-- Active step -->
         <div class="w-10 h-1 bg-yellow-500 rounded-full"></div>
-        <!-- Inactive steps -->
         <div class="w-10 h-1 bg-gray-300 rounded-full"></div>
         <div class="w-10 h-1 bg-gray-300 rounded-full"></div>
         <div class="w-10 h-1 bg-gray-300 rounded-full"></div>
@@ -464,7 +465,7 @@
             <img src="../img/Vector-4.png" class="w-8 h-8 mr-2" alt="phone">
           </div>
         </div>
-        <hr class="footer-line"/>
+        <hr class="footer-line" />
 
         <div class="copyright flex justify-between">
           <p id="info-1">Muranga Seal. All writes reserved</p>
@@ -477,6 +478,7 @@
       </div>
     </section>
   </section>
+  <script src="./script.js"></script> 
 </body>
 
 </html>
