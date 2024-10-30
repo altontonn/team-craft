@@ -591,6 +591,10 @@ video {
   width: 3rem;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -652,6 +656,10 @@ video {
   background-image: url(./image/football-preview.png);
 }
 
+.bg-image-four {
+  background-image: url(./image/image-4.png);
+}
+
 .bg-image-match {
   background-image: url(./image/image-match.png);
 }
@@ -666,10 +674,6 @@ video {
 
 .bg-image-two {
   background-image: url(./image/image-2.png);
-}
-
-.bg-image-four {
-  background-image: url(./image/image-4.png);
 }
 
 .bg-cover {
@@ -1166,5 +1170,13 @@ section .preview p {
 }
 
 .kit-shop {
-  border: 1px solid #EFEFEF;
+  border: 1px solid #efefef;
+}
+
+.seal-box {
+  width: 330px;
+  height: 302.63px;
+  gap: 13px;
+  box-shadow: 0px 0px 12px 0px #0000001a;
+  border-radius: 8px 8px 8px 8px;
 }
