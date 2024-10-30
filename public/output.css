@@ -586,6 +586,10 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -616,6 +620,21 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pl-4 {
@@ -865,4 +884,89 @@ section .preview p {
 .timer span {
   font-size: 14px;
   color: #333;
+}
+
+.team-header-text p {
+  font-family: Inter;
+  font-size: 33.3px;
+  font-weight: 400;
+  line-height: 43.2px;
+  text-align: left;
+  background: linear-gradient(90deg, #000000 0%, #fdc52c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.next-match {
+  font-family: Inter;
+  font-size: 12.1px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: #222222;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+  font-family: Inter;
+  font-size: 40.7px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  background: linear-gradient(90deg, #c8b416 0%, #fae115 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#time-days,
+#time-hours,
+#time-mins,
+#time-seconds {
+  font-family: Inter;
+  font-size: 8.6px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #727272;
+}
+
+.team-header-calendar p {
+  font-family: Inter;
+  font-size: 12.8px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #154284;
+}
+
+.arrow-icon i {
+  font-size: 20px;
+  /* Adjust size as needed */
+  color: black;
+  border: 1px solid #ccc;
+  /* Border color for the circle */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  /* Spacing between the icons */
+  background-color: white;
+  /* Circle background color */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.arrow-icon i:first-child {
+  color: #888;
+  /* Lighter color for the left arrow */
+}
+
+.arrow-icon i:hover {
+  color: black;
+  /* Darken color on hover */
 }
