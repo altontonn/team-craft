@@ -562,8 +562,16 @@ video {
   display: flex;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .grid-cols-3 {
@@ -590,16 +598,32 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 .gap-4 {
   gap: 1rem;
+}
+
+.bg-div {
+  background-image: url(./image/Div.png);
 }
 
 .bg-football-preview {
   background-image: url(./image/football-preview.png);
 }
 
+.bg-image-match {
+  background-image: url(./image/image-match.png);
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {
@@ -627,9 +651,9 @@ video {
   padding-right: 0.75rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-6 {
@@ -659,6 +683,10 @@ video {
 
 .pr-8 {
   padding-right: 2rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .font-sans {
@@ -858,12 +886,14 @@ section .preview p {
   color: #f4e721;
 }
 
+.main-section {
+  background: #000000;
+}
+
 .muranga-team {
-  width: 1415px;
-  height: 2381px;
-  left: 7px;
-  gap: 0px;
-  opacity: 0px;
+  /* width: 1415px; */
+  height: auto;
+  background-color: #fff;
 }
 
 .timer {
@@ -969,4 +999,68 @@ section .preview p {
 .arrow-icon i:hover {
   color: black;
   /* Darken color on hover */
+}
+
+.matches-1 {
+  width: 350px;
+  height: 305px;
+}
+
+.headline-match {
+  width: 640px;
+  height: 47px;
+  background: #080e1f;
+}
+
+.team-button button {
+  background: #fdc52c;
+  color: #fff;
+  width: 160px;
+  height: 32px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+#text-1 {
+  font-family: Inter;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  color: #727272;
+}
+
+#text-2 {
+  font-family: Inter;
+  font-size: 39.4px;
+  font-weight: 400;
+  line-height: 58px;
+  text-align: left;
+  background: linear-gradient(90deg, #c8b416 0%, #fae115 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#text-3 {
+  font-family: Inter;
+  font-size: 16.7px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+#text-4 {
+  font-family: Inter;
+  font-size: 9.5px;
+  font-weight: 400;
+  line-height: 13.2px;
+  text-align: left;
+}
+
+.headline-match-1 {
+  width: 352px;
+  height: 47px;
+  background: #080E1F;
+}
+
+.main {
 }

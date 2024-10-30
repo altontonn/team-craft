@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'football-preview': "url(./image/football-preview.png)",
+        'image-match': "url(./image/image-match.png)",
+        'div': "url(./image/Div.png)",
       },
     },
   },
