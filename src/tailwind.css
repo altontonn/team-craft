@@ -343,3 +343,37 @@ section .preview p {
   width: 65%;
   margin: 0 auto;
 }
+
+.ball-kit {
+  box-shadow: 0px 0px 12px 0px #0000001a;
+  width: 334px;
+  height: 327.93px;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.store-image-1 {
+  width: 334px;
+  height: 131.93px;
+}
+
+#kit {
+  font-family: Inter;
+  font-size: 21.7px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #222222;
+}
+
+#kit-p {
+  font-family: Inter;
+font-size: 13.7px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+color: #727272;
+}
+
+.kit-shop {
+  border: 1px solid #EFEFEF;
+}
