@@ -83,6 +83,12 @@
     z-index: 5;
   }
 
+  .header-2 {
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+  }
+
   .mobile-menu {
     display: none; /* Hidden initially */
     opacity: 0;
