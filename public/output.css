@@ -657,6 +657,10 @@ video {
   width: 3rem;
 }
 
+.w-52 {
+  width: 13rem;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -1022,12 +1026,6 @@ video {
   }
 }
 
-section .preview {
-  width: 678px;
-  height: 60px;
-  left: 380.94px;
-}
-
 .main {
   display: flex;
   align-items: flex-end;
@@ -1230,9 +1228,26 @@ section .preview p {
 }
 
 .headline-match {
-  /* width: 640px; */
   height: 47px;
   background: #080e1f;
+}
+
+.t-match-1 {
+  font-family: Inter;
+  font-size: 37.7px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #fff;
+}
+
+.t-match-2 p {
+  font-family: Inter;
+  font-size: 16.2px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #fff;
 }
 
 .team-button button {
@@ -1282,6 +1297,18 @@ section .preview p {
 .headline-match-1 {
   height: 47px;
   background: #080e1f;
+}
+
+@media screen and (max-width: 430px) {
+  .headline-match-a img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .headline-match-a img {
+    width: 180px;
+  }
 }
 
 .container {
@@ -1399,6 +1426,7 @@ section .preview p {
   width: 80%;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: baseline;
   color: #000;
@@ -1408,12 +1436,19 @@ section .preview p {
   display: flex;
   justify-content: center;
   padding: 10px;
+  width: 100%;
   background-color: #000;
+}
+
+@media screen and (max-width: 600px) {
+  .subscription-box {
+    flex-wrap: wrap;
+  }
 }
 
 .subscription-box input[type="email"] {
   padding: 10px;
-  width: 300px;
+  width: 100%;
   border: none;
   border-radius: 5px 0 0 5px;
   outline: none;
@@ -1426,6 +1461,7 @@ section .preview p {
 .subscription-box button {
   padding: 10px 20px;
   border: none;
+  width: 100%;
   border-radius: 0 5px 5px 0;
   color: #000;
   /* Black background for the button */
@@ -1475,4 +1511,20 @@ section .preview p {
   line-height: 21px;
   text-align: left;
   color: #fae115;
+}
+
+@media screen and (max-width: 500px) {
+  .copyright {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #info-1 {
+    margin-bottom: 1rem;
+  }
+
+  #info-2 {
+    margin-bottom: 1rem;
+  }
 }
