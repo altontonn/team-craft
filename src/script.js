@@ -1,4 +1,4 @@
 function toggleMenu() {
-  const menus = document.querySelectorAll('.menu');
-  menus.forEach(menu => menu.classList.toggle('show'));
+  const mobileMenu = document.querySelector('.mobile-menu');
+  mobileMenu.classList.toggle('show');
 }
